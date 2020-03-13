@@ -1,18 +1,18 @@
 error_msg_numeric = "Error, please enter numeric input"
 
-hours = raw_input('Enter Hours:20 ')
+hours = raw_input('Enter Hours:')
 try:
   float(hours)>=0
 except:
   print (error_msg_numeric)
-  hours = raw_input('Enter Hours: 20')
+  hours = raw_input('Enter Hours:')
 
-rate = raw_input('Enter Rate: 9')
+rate = raw_input('Enter Rate:')
 try:
   float(rate) >=0
 except:
   print (error_msg_numeric)
-  rate = raw_input('Enter Rate: 9')
+  rate = raw_input('Enter Rate:')
 
 hours = float(hours)
 rate = float(rate)
