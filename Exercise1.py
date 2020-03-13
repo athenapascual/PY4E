@@ -1,5 +1,5 @@
-hours = raw_input('Enter Hours:40 ')
-rate = raw_input('Enter Rate:10 ')
+hours = raw_input('Enter Hours: ')
+rate = raw_input('Enter Rate: ')
 
 if hours > 40:
   extra_time = float(hours) - 40
